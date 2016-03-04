@@ -1,0 +1,178 @@
+@import url(http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,900,700italic,900italic);
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  transition:all 0.5s;
+  font-family:Roboto,"Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei","WenQuanYi Micro Hei",Arial,Verdana,"微软雅黑",sans-serif;
+}
+body {
+  height:100%;
+  width:100%;
+  margin:0px;
+}
+.image {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background: url("../img/bg2.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:-1;
+  opacity:1;
+  -webkit-animation: imageIntro 3s;
+}
+
+#intro {
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:600px;
+  margin-left:-300px;
+  margin-top:-200px;
+  text-align:center;
+  color:#ffffff;
+  font-size:40px;
+  font-weight:100;
+}
+.footer {
+  position:fixed;
+  bottom:15px;
+  left:50%;
+  margin-left:-140px;
+  color:#ffffff;
+  font-size:16px;
+}
+.footer a {
+  color:#ffffff;
+  text-decoration:none;
+}
+.ibutton{
+    font-size: 15px;
+    padding: 10px 24px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    line-height: 1.1;
+	font-weight: 700;
+	color: #fff;
+	background:transparent;
+	outline:none;
+}
+
+
+.ibutton:hover{
+	color:#fff;
+	border: 2px solid #FF9B22;
+	background:#FF9B22;
+}
+
+
+@media (max-width:768px){
+	*{
+		font-family:"Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei","WenQuanYi Micro Hei",Arial,Verdana,"微软雅黑",sans-serif;
+	}
+	.image {
+		background:url("../img/5.png") no-repeat center center;
+	     -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		 background-size: cover;
+		
+	}
+	#intro {
+		left: 50%;
+		top: 90%;
+		color: #000;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.footer {
+  		position:fixed;
+  		bottom:10px;
+  		left:50%;
+  		margin-left:-99px;
+  		color:#ffffff;
+  		font-size:16px;	
+	}
+	.footer a{
+		text-decoration:none;
+		font-size:12px;
+	}
+	.ibutton{
+	border:none;
+	background-color:#fff;
+	font-size:15px;
+	letter-spacing: 0;
+    vertical-align: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+	border: 1px solid;
+	color: #000;
+	padding-left: 12px;
+	padding-right: 12px;
+	outline:none;
+}
+.ibutton:hover{
+	color:#2c97e8;
+}
+.ibutton:active{
+	color:#2c97e8;
+}
+
+.ibutton:visited{
+	color:#2c97e8;
+}
+ }
+ 
+ 
+ 
+ @media (max-width:320px){
+	*{
+		font-family:"Helvetica Neue",Helvetica,"PingFang SC","Microsoft Yahei","WenQuanYi Micro Hei",Arial,Verdana,"微软雅黑",sans-serif;
+	}
+	.image {
+		background:url("../img/5.png") no-repeat center center;
+	     -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		 background-size: cover;
+		
+	}
+	#intro {
+		top:87%;
+		color:#000;
+		font-weight:400;
+		font-size:18px;
+	}
+	.footer {
+		position:fixed;
+  		bottom:10px;
+		left:50%;
+		margin-left:-110px;
+  		color:#ffffff;
+	}
+	.footer a{
+		text-decoration:none;
+		font-size:14px;
+	}
+	.ibutton{
+	border:none;
+	background-color:#fff;
+	font-size:14px;
+	letter-spacing: 0;
+    vertical-align: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+	border: 1px solid ;
+	color:#000;
+    padding-left:12px;
+	padding-right:12px;
+	outline:none;
+}
+ }
